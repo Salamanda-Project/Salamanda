@@ -80,8 +80,8 @@ async function sendTokens(DESTINATION_WALLET, MINT_ADDRESS, TRANSFER_AMOUNT) {
 
 module.exports.transfer = async (DESTINATION_WALLET, MINT_ADDRESS, TRANSFER_AMOUNT) => {
     try {
-        let sendTokens = await sendTokens(DESTINATION_WALLET, MINT_ADDRESS, TRANSFER_AMOUNT);
-        return sendTokens
+        let transferStatus = await sendTokens(DESTINATION_WALLET, MINT_ADDRESS, TRANSFER_AMOUNT);
+        return transferStatus
     } catch (error) {
         console.log(error)
     }

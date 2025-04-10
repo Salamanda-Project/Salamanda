@@ -13,7 +13,7 @@ async function bundle() {
             const transfer = transferSPLToken.transfer(
                 wallets[i].publicKey,
                 "Bp9VGwfHc9vpPpBf3fdGtDEfNtF4MYamHgWQDC7U3V9A",
-                1000000 * Math.pow(10, numberDecimals)
+                0.001 * Math.pow(10, numberDecimals)
             );
             console.log(transfer);
         }
