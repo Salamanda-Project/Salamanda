@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Archivo";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/public/fonts/Archivo-Regular.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Archivo";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("/public/fonts/Archivo-Medium.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Archivo";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("/public/fonts/Archivo-SemiBold.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Archivo";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("/public/fonts/Archivo-Bold.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Archivo";
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("/public/fonts/Archivo-Black.ttf") format("truetype");
+  }
+  
